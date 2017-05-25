@@ -86,7 +86,15 @@ RUN aptly mirror update mirror-xenial
 ```
 **3) Configuracion del archivo Dockerfile del servidor Nginx:**
 
-Para la realizacion del Mirror se utilizaron los archivos anexos en la carpeta llamada **"Solución"** la cual incluye en primer nivel el docker-compose.jml el servidor Mirror y el cliente donde dentro de cada un (Mirror, cliente) estan sus respectivas carpetas para la clave la configuracion y su Dockerfile.
+Para la realizacion del Mirror se utilizaron los archivos anexos en la carpeta llamada **"Solución"** dentro de la cual contiene la carpeta **Mirror** la cual incluye su Dockerfile y una carpeta para el manejo de su clave y otra para las configuraciones de Aptly, el Entrypoint y el publish_snapshot.
+
+**4) Archivos para la prueba del servicio:**
+
+Para realizar dicha prueba se que el mirror funcionaba y se podian obtener los servicios ofrecidos se configuro un cliente el cual accedia a dicho mirror para descargar algunos archivos, los archivos utilizadoos para la configuracion de dicho cliente se encuentran en la carperta llamada **"Solución"** dentro de la cual contiene la carpeta **Cliente**
+
+**5) Verificacion de la Solución:**
+
+nivel el docker-compose.jml el servidor Mirror y el cliente donde dentro de cada un (Mirror, cliente) estan sus respectivas carpetas para la clave la configuracion y su Dockerfile.
 
 
 
