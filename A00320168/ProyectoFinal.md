@@ -96,10 +96,13 @@ Para realizar dicha prueba se que el mirror funcionaba y se podian obtener los s
 
 Para verificar dicho funcionamiento nos ubicamos en la carpeta principal donde se encuentra el archivo **docker-compose.yml** y ejecutamos el comando **docker-compose -p "RepositoryName" up** y el empieza a subir el servicio donde se evidencia que al mirror subir sus servicios el cliente puede acceder a este y obtener el servicio. A continuación se muestra dicho funcionamiento:
 
+![GitHub Logo0](Resources/proyecto1.gif)
 
 
 **7) Problemas encontrados:**
-~
+* 
+*
+*
 
 
 
