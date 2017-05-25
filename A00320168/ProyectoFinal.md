@@ -38,10 +38,12 @@ Para este proyecto deberá realizar el aprovisionamiento automático de un espej
 
 ## Procedimiento
 
+**2) Automatizacion de comandos necesarios para el aprovisionamiento:**
+
 Para realizar el aprovisionamiento de los servicios solicitados (El mirror automatizado) se realizaron algunas configuraciones al archivo de configuración de Aptly (aptly.conf) el cual es ejecutado dentro del contenedor del Mirror,
 al igual que su posterior instalación a traves del Dockerfile del Mirror. Dichos comandos de la instalacción de Aptly y su configuración se automatizaron a traves del Dockerfile. Los comandos automatizados fueron:
 
-```c#
+```
 Reemplazar la llave que viene por defecto de otra de las llaves con las que trabaja Aptly
 ADD /keys/private.asc /keys/private.asc
 
@@ -82,7 +84,9 @@ RUN aptly mirror create -architectures=amd64 -filter='Priority (required) | Prio
 RUN aptly mirror update mirror-xenial
 
 ```
+**3) Configuracion del archivo Dockerfile del servidor Nginx:**
 
+Para la realizacion del Mirror se utilizaron los archivos anexos en la carpeta llamada **"Solución"** la cual incluye en primer nivel el docker-compose.jml el servidor Mirror y el cliente donde dentro de cada un (Mirror, cliente) estan sus respectivas carpetas para la clave la configuracion y su Dockerfile.
 
 
 
