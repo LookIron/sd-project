@@ -92,9 +92,14 @@ Para la realizacion del Mirror se utilizaron los archivos anexos en la carpeta l
 
 Para realizar dicha prueba se que el mirror funcionaba y se podian obtener los servicios ofrecidos se configuro un cliente el cual accedia a dicho mirror para descargar algunos archivos, los archivos utilizadoos para la configuracion de dicho cliente se encuentran en la carperta llamada **"Solución"** dentro de la cual contiene la carpeta **Cliente**
 
-**5) Verificacion de la Solución:**
+**5) y 6) Verificación de la Solución:**
 
-nivel el docker-compose.jml el servidor Mirror y el cliente donde dentro de cada un (Mirror, cliente) estan sus respectivas carpetas para la clave la configuracion y su Dockerfile.
+Para verificar dicho funcionamiento nos ubicamos en la carpeta principal donde se encuentra el archivo **docker-compose.yml** y ejecutamos el comando **docker-compose -p "RepositoryName" up** y el empieza a subir el servicio donde se evidencia que al mirror subir sus servicios el cliente puede acceder a este y obtener el servicio. A continuación se muestra dicho funcionamiento:
+
+
+
+**7) Problemas encontrados:**
+~
 
 
 
