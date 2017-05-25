@@ -29,6 +29,23 @@ Para este proyecto deberá realizar el aprovisionamiento automático de un espej
 * No es necesario que genere llaves nuevas cada vez que despliegue el espejo, puede crearlas previamente y precargarlas en la solución de aprovisionamiento automático a emplear
 * Probar por medio del despliegue de uno o varios contenedores que el mirror ha sido correctamente desplegado
 
+## Herramientas utilizadas
+* Aptly
+* Docker
+* Http
+* Sistema operativo ubuntu-xenial
+* etc.
+
+## Procedimiento
+
+
+
+
+
+
+
+
+
 
 
 
