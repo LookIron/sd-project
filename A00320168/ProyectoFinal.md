@@ -7,7 +7,7 @@
 
 **Esteban Camacho - A00320168**
 
-**Danielito Ocampito - A00053980**
+**Daniel Ocampo - A00053980**
 
 **Curso:** Sistemas Operativos  
 **Docente:** Daniel Barragán C.  
@@ -101,7 +101,7 @@ Para verificar dicho funcionamiento nos ubicamos en la carpeta principal donde s
 
 **7) Problemas encontrados:**
 
-* En la realización de dicho proyecto se presento confución en el manejo de los las kye debido a que era necesario manejar una  key privada y una publica, donde la publica fue impuesta a los clientes y la privada por motivos de seguridad se implanto en el  mirror. Al inicio no era complejo la generación y el uso de dicjas llaves pero despues de algunos ejempos dados por algunos compañeros, de donde se llego a que la manera mas aproximada era la mencionada anteriormente.
+* En la realización de dicho proyecto se presento confución en el manejo de los las kye debido a que era necesario manejar una  key privada y una publica, donde la publica fue impuesta a los clientes y la privada por motivos de seguridad se implanto en el  mirror. Al inicio no era complejo la generación y el uso de las llaves, pero despues de algunos ejempos dados por algunos compañeros, de donde se llego a que la manera mas aproximada era la mencionada anteriormente.
 
 
 
