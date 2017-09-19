@@ -3,7 +3,7 @@
 
 **Universidad ICESI** 
 
-**Esteban Camacho B.**
+**Esteban Camacho B.**  
 **Curso:** Sistemas Operativos  
 **Docente:** Daniel Barragán C.  
 **Correo:** daniel.barragan at correo.icesi.edu.co
@@ -37,7 +37,7 @@ Para este proyecto deberá realizar el aprovisionamiento automático de un espej
 Para realizar el aprovisionamiento de los servicios solicitados (El mirror automatizado) se realizaron algunas configuraciones al archivo de configuración de Aptly (aptly.conf) el cual es ejecutado dentro del contenedor del Mirror,
 al igual que su posterior instalación a traves del Dockerfile del Mirror. Dichos comandos de la instalacción de Aptly y su configuración se automatizaron a traves del Dockerfile. Los comandos automatizados fueron:
 
-```python
+```java
 Reemplazar la llave que viene por defecto de otra de las llaves con las que trabaja Aptly
 ADD /keys/private.asc /keys/private.asc
 
